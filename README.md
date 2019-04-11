@@ -5,6 +5,8 @@ Links to tutorials and ideas
 [Popcircle](https://rgeomatic.hypotheses.org/1780) - turn maps into circles based on sample size.  
 [BBC Cookbook](https://bbc.github.io/rcookbook/) - BBC tutorial to make publication ready graphics in R.  
 [Great data wrangling tutorial](https://nceas.github.io/crescynt-training/tidy_coral).  
-[Better poster creation](https://github.com/brentthorne/posterdown)
+[Better poster creation](https://github.com/brentthorne/posterdown).  
+[Stats the Way I Like It](https://statsthewayilikeit.com/)  
+
 
 
