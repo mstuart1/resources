@@ -11,4 +11,6 @@ circles based on sample size.
 [PCA plots](https://tem11010.github.io/Plotting-PCAs/)
 [ggally - multipanel plots](https://rdrr.io/github/ggobi/ggally/man/psychademic.html)
 
+https://rosannavanhespenresearch.wordpress.com/2016/02/03/writing-your-thesis-with-r-markdown-1-getting-started/
+
 
