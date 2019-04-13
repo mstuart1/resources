@@ -15,5 +15,5 @@ https://rosannavanhespenresearch.wordpress.com/2016/02/03/writing-your-thesis-wi
 
 https://blog.r-hub.io/2019/04/11/r-package-devel/
 
-
+https://www.garrickadenbuie.com/project/xaringanthemer
 
