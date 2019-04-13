@@ -13,4 +13,7 @@ circles based on sample size.
 
 https://rosannavanhespenresearch.wordpress.com/2016/02/03/writing-your-thesis-with-r-markdown-1-getting-started/
 
+https://blog.r-hub.io/2019/04/11/r-package-devel/
+
+
 
