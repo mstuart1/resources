@@ -11,9 +11,11 @@ circles based on sample size.
 [PCA plots](https://tem11010.github.io/Plotting-PCAs/)
 [ggally - multipanel plots](https://rdrr.io/github/ggobi/ggally/man/psychademic.html)
 
-https://rosannavanhespenresearch.wordpress.com/2016/02/03/writing-your-thesis-with-r-markdown-1-getting-started/
+[Map making like Sarah](https://github.com/stuartmichelle/Playground/blob/master/map-from-sarah-borsetti.md)
 
-https://blog.r-hub.io/2019/04/11/r-package-devel/
+[Writing your thesis with RMarkdown](https://rosannavanhespenresearch.wordpress.com/2016/02/03/writing-your-thesis-with-r-markdown-1-getting-started/)
 
-https://www.garrickadenbuie.com/project/xaringanthemer
+[R package development](https://blog.r-hub.io/2019/04/11/r-package-devel/)
+
+[Themes for xaringan presentations](https://www.garrickadenbuie.com/project/xaringanthemer)
 
