@@ -14,7 +14,7 @@ output:
 knitr::read_chunk(here::here("compile.R"))
 ```
 
-```{r eval=FALSE}
+```{r echo=TRUE, eval=FALSE}
 <<oceanadapt>>
 ```
 - Eval is FALSE because I don't want it to run in this document, but EVAL would be true in the real Rmd file.  
