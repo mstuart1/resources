@@ -7,6 +7,20 @@ output:
     toc_float: true
     theme: cosmo
 ---
+[How to call an external R script from within an Rmarkdown document](https://yihui.name/knitr/demo/externalization/)  
+- Add a tag to the R script so knitr can find it.  It must be in the '## ---- tag' format.  
+- In the Rmd, use these chunks
+```{r eval=FALSE}
+knitr::read_chunk(here::here("compile.R"))
+```
+
+```{r eval=FALSE}
+<<oceanadapt>>
+```
+- Eval is FALSE because I don't want it to run in this document, but EVAL would be true in the real Rmd file.  
+- The code will be run when you knit the document, not by hitting the play button.  
+
+
 
 [How to create a website using google docs and Rmarkdown](http://www.storybench.org/convert-google-doc-rmarkdown-publish-github-pages/)  
 
