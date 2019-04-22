@@ -1,0 +1,85 @@
+---
+title: "Resources"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+
+[How to create a website using google docs and Rmarkdown](http://www.storybench.org/convert-google-doc-rmarkdown-publish-github-pages/)  
+
+1. Create an index file in Rstudio.  
+1. Create a file named .nojekyll so that github doesn't use the jekyll engine.  
+1. Create a file named _site.yml.  
+
+
+RMarkdown websites require a _site.yml file to organize the rest of the files and add a navigation bar. In your text editor, create and save a _site.yml file following this format to name your website and include a navbar:
+
+name: "my-website-name"
+output_dir: "."
+navbar:
+  title: "Website title"
+  left:
+    - text: "Overview"
+      href: index.html
+    - text: "Weekly schedule"
+      href: schedule.html
+    - text: "Assignments"
+      href: assignments.html
+The output_dir: “.” is required if you want to host this website on Github pages. We do, so make sure to include it!
+
+To include a table of contents and spice up the site with nice typography using the **cosmo** theme, I’ve included some extra information including **toc: true **(meaning yes, I want a table of contents)**, toc_depth: 2 **(meaning only **# headlines** and **## subheds** will show up in the table of contents) and **toc_float: true** (meaning the table of contents will stay put as I scroll down).
+
+RMarkdown websites require a _site.yml file to organize the rest of the files and add a navigation bar. In your text editor, create and save a _site.yml file following this format to name your website and include a navbar:
+
+name: "my-website-name"
+output_dir: "."
+navbar:
+  title: "Website title"
+  left:
+    - text: "Overview"
+      href: index.html
+    - text: "Weekly schedule"
+      href: schedule.html
+    - text: "Assignments"
+      href: assignments.html
+The output_dir: “.” is required if you want to host this website on Github pages. We do, so make sure to include it!
+
+Notice the navbar. You can link to outside URLs or to the other pages you’ve built. Make sure to use .html. (In the next step, we’ll convert our pages from .Rmd to .html files).
+
+Build your pages
+
+Once you’ve finished editing your .Rmd files, you can build them into .html files. Make sure the .Rmd and .yml files are all in the same directory.
+
+In R Studio, go to the Console pane in the bottom-left and type rmarkdown::render(“index.Rmd”) and click enter. Do the same for rmarkdown::render(“assignments.Rmd”) and rmarkdown::render(“schedule.Rmd”) or whatever you’ve named your other pages. The files should be processed by R Studio and end up in the same directory you’ve saved the .Rmd and .yml files. Open the .html files in an internet browser to double-check them.
+
+Push the files to Github
+
+Log into Github and create a new repository for your webpage. Make sure to initialize the repository with a README file.
+
+
+
+Once you’re in your new repository, click Upload files:
+
+
+
+Drag and drop in your files and click Commit changes:
+
+
+
+Alternatively, you could use Github Desktop or the command line to commit files to your repository.
+
+Publish your repo as a Github page
+
+Finally, head to the Settings tab of your repository.
+
+
+
+Scroll down to the Github Pages section and click None. Select master branch as your Source and then hit Save.
+
+
+
+Now, navigate to {username}.github.io/{reponame} and your website should be live! Mine is at aleszu.github.io/digisoc/.
+
