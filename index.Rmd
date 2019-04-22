@@ -7,6 +7,10 @@ output:
     toc_float: true
     theme: cosmo
 ---
+# Github
+[When github won't push and returns a permission denied public key error](https://help.github.com/en/articles/error-permission-denied-publickey)
+
+# RMarkdown
 [How to call an external R script from within an Rmarkdown document](https://yihui.name/knitr/demo/externalization/)  
 - Add a tag to the R script so knitr can find it.  It must be in the '## ---- tag' format.  
 - In the Rmd, use these chunks
