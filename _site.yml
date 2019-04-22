@@ -1,6 +1,7 @@
 name: "Resources"
 output_dir: "."
 navbar:
+title: "Resources"
   left:
-    - text: "Overview"
+    - text: "Home"
       href: index.html
