@@ -11,8 +11,7 @@ output:
 [When github won't push and returns a permission denied public key error](https://help.github.com/en/articles/error-permission-denied-publickey)
 
 # Data Import
-[How to tranfer data from Google to R](https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html)  
-- 
+[How to tranfer data from Google to R](https://googlesheets4.tidyverse.org)
 
 # RMarkdown
 [How to call an external R script from within an Rmarkdown document](https://yihui.name/knitr/demo/externalization/)  
