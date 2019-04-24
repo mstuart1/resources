@@ -5,7 +5,7 @@ output:
     toc: true
     toc_depth: 2
     toc_float: true
-    theme: cosmo
+    theme: flatly
 ---
 # Github
 [When github won't push and returns a permission denied public key error](https://help.github.com/en/articles/error-permission-denied-publickey)
@@ -103,4 +103,10 @@ Scroll down to the Github Pages section and click None. Select master branch as 
 
 
 Now, navigate to {username}.github.io/{reponame} and your website should be live! Mine is at aleszu.github.io/digisoc/.
+
+
+
+# Learning new things
+[data.table](https://github.com/Rdatatable/data.table/wiki) - it looks like all you need to do is type data.table::example(data.table) and you get a list of everything you need to know.
+
 
